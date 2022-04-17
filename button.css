@@ -1,0 +1,25 @@
+*{
+    /* box-sizing: content-box; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn{
+    text-decoration: 0;
+    background-color: #f4c45f;
+    border: none;
+    font-size: 50px;
+    color: red;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    color: aqua;
+    background-color: navajowhite;
+}
+.btn:active{
+    color:midnightblue;
+}
+/* .btn:visited{
+    background-color: orchid;
+} */

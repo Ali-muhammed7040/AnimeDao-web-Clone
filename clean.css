@@ -14,12 +14,10 @@
 .brown1,.brown2{
     background-color: #A56622;
     width: 50px;
-    height: 127.8vh;
+    height: 139.1vh;
 }
 nav{
     background-color: black;
-   
-    width: 100%;
     height: 60px;
     display: flex;
     justify-content:space-between ;
@@ -32,9 +30,11 @@ nav{
     color: white;
     font-size: 22px;
     margin-left: 25px;
+    
 }
 .logo-container i{
     padding-right: 10px;
+    color:#1292C9;
     
 }
 .menu-container{
@@ -59,11 +59,15 @@ nav{
     list-style-type: none;
     padding: 5px;
     margin: 5px;
+    
+   
 }
 .menu-container li:hover {
     cursor: pointer;
     background-color: #1292C9;
     border-radius: 3px;
+    transition-duration: 0.2s;
+    
 
 }
 .search-container{
@@ -170,7 +174,6 @@ nav{
 .play-container:hover{
     background-color:  #ffe60480;;
 }
-
 .time{
     position: absolute;
     right: 0;
@@ -205,50 +208,44 @@ footer{
     background-color:#25292B;;
     padding: 20px 10px;
     margin-top: 20px;
-    margin-left: 50px;
     /* width: 1165px; */
     height: 200px;
-    width: 72.8rem;
-    margin-right: 0;
+    width: 73.8rem;
     position: absolute;
 
 }
 footer h3{
     color: white;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 footer p{
     padding-bottom: 10px;
+    padding-top: 10px;
     color:#999999;
 }
 footer h1{
     color: white;
     padding: 15px;
 }
-footer h1 i{
-    color: #02abf3;
- }
 .copy-right p{
     color: white;
     background-color: black;
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 82px;
     font-size: 12px;
-    text-align: center;
-    justify-content: center;
-    margin-left: 50px;
-    /* width: 1165px; */
-   width: 72.8rem;
+   width: 73.8rem;
 
 }
 footer{
-    position: absolute;
     top: 900px;
 }
 .copy-right{
     position: absolute;
-    /* top: 1115px;
-    bottom: 0; */
     top: 70em;
+}
+.footer-with-copy{
+    margin-left: 50px;
+    
 }

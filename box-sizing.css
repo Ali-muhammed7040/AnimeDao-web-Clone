@@ -1,0 +1,15 @@
+*{
+     /* margin: 0;
+     padding: 0; */
+     /* box-sizing: border-box; */
+     /* box-sizing: content-box; */
+}
+.one{    
+    border: 1px solid black;
+    background-color:antiquewhite;
+   width: 1000px;
+}
+.one p{    
+    
+    padding: 10px;
+}

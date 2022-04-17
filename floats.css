@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+/* .wrap{
+    border: 10px solid orange;
+    padding: 20px;
+    
+} */
+
+
+.box1{
+    border: 1px solid black;
+    margin-bottom: 10px;
+    /* text-align: center; */
+    padding: 20px;
+    
+}
+.box2{
+    border: 1px solid black;
+    margin-bottom: 10px;
+    /* text-align: center; */
+    width: 69%;
+    padding: 20px;
+    float: left;
+}
+.box3{
+    border: 1px solid black;
+    margin-bottom: 10px;
+    /* text-align: center; */
+    padding: 20px;
+    width: 30%;
+    float: right;
+}
+.clear
+{
+    clear: both;
+}
+.box4 {
+    width: 100%;
+    border: 1px solid black;
+    padding: 15px;
+    padding: 20px;
+    /* text-align: center; */
+}
+body p{
+    justify-content: center;
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+ul li{
+    display: inline;
+    
+}
+ul li a{
+    padding: 10px;
+}
+.box{
+    border: 1px solid black;
+    width: 32%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding: 15px;
+    background-color: antiquewhite;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.box2{
+    background-color: rgba(0, 247, 255, 0.068);
+    width: 33%;
+    padding: 20px;
+   
+    display:table-cell;
+    /* clear: both; */
+    box-sizing: border-box;
+
+}
